@@ -1,4 +1,4 @@
 # C_Project
 C Language Project
 
-되는지 확인필요
+C언어 연습을 위한 github 저장소
