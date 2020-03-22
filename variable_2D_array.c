@@ -10,7 +10,8 @@ int main()
     int numArr[sizeRow][sizeCol]; // only for gcc compiler --> int (*numArr)[sizeRow] = malloc(sizeof(int *)*sizeCol);
     
     
-    int **m = malloc(sizeof(int *) * sizeRow);
+    int **m;
+    m = malloc(sizeof(int *) * sizeRow);
     for (int i = 0; i < sizeRow; i++)
     {
         m[i] = malloc(sizeof(int) * sizeCol);
